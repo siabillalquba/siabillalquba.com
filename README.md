@@ -1,5 +1,5 @@
 # Personal Website of Sia Billal Quba
-![PP](PP.jpg)
+![alt text](pp.JPG)
 
 Hi, I'm **Billal**, welcome to my personal website code. Hopefully you will find something useful from here.
 
