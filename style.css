@@ -13,3 +13,13 @@ ul{
 a{
     text-decoration: none;
 }
+
+.social-media
+{
+    color: hsl(0, 0%, 35%);
+}
+.social-media:hover
+{
+    background: hsl(0, 0%, 35%);
+    color: currentColor;
+}
