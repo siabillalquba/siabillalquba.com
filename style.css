@@ -26,6 +26,11 @@ a {
   font-weight: 900;
 }
 
+.logo {
+  width: 58px;
+  height: 45px;
+}
+
 .navlinks {
   display: flex;
   align-items: center;
@@ -43,7 +48,7 @@ a {
 }
 
 .footer-container {
-  background-color: aqua;
+  background-color: rgb(116, 116, 116);
   display: flex;
   justify-content: center;
   align-items: center;
