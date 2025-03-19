@@ -23,6 +23,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: 900;
 }
 
 .navlinks {
@@ -41,13 +42,35 @@ a {
   height: 36px;
 }
 
+.footer-container {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 50px;
+}
+
+.copyright {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.photo {
+  height: 477px;
+  width: 365px;
+  border-radius: 10px;
+}
+
 .about-content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
 }
 
 .my-story {
+  flex-direction: column;
 }
 
 .work-experience {
+  flex-direction: column;
 }
