@@ -76,14 +76,46 @@ a {
   font-weight: 700;
 }
 
+.introduction-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 40px;
+  /*  margin: 0 auto;
+  max-width: 500px; */
+}
+
 .introduction {
-  margin: 0 auto;
+  width: 100%;
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction h2 {
+  margin: 10px;
+}
+
+.introduction p {
+  font-size: 20px;
+  margin: 10px;
 }
 
 .photo {
-  height: 477px;
+  display: flex;
+  align-items: center;
+}
+
+.photo img {
+  height: 600px;
   border-radius: 10px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
 }
 
 .about-article {
@@ -102,7 +134,7 @@ a {
   min-width: 250px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .experience p {
