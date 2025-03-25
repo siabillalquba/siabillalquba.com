@@ -101,15 +101,16 @@ a {
   max-width: 500px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .introduction h2 {
-  margin: 10px;
+  margin: 0px;
 }
 
 .introduction p {
   font-size: 20px;
-  margin: 10px;
+  margin: 0px;
 }
 
 .photo {
@@ -118,17 +119,20 @@ a {
 }
 
 .photo img {
-  height: 300px;
+  width: 280px;
   border-radius: 10px;
 }
 
 .projects-container {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .projects {
-  font-size: 20px;
+  font-size: 28px;
+  max-width: 800px;
+  width: 100%;
 }
 
 .about-article {
